@@ -1,0 +1,25 @@
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fafafa;  
+}
+
+@media only screen and (max-width:688px) {
+    .service-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .service-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

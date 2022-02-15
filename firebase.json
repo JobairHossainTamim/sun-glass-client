@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "firebase": "harrison",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
